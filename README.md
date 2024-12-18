@@ -61,3 +61,7 @@ Ce projet explore les concepts avancés de cryptographie à travers deux modules
    ```
 
 ---
+
+## 👨‍💻 **Auteurs**
+**Nouhaila JABBAR** et **Rim SADIQI**
+
