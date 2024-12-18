@@ -13,3 +13,12 @@ Ce projet explore les concepts avancés de cryptographie à travers deux modules
 - 🔑 Implémenter le **chiffrement et déchiffrement McEliece** avec génération de clés.
 
 ---
+## 📂 **Structure des fichiers**
+
+| 🗂️ **Fichier**          | 📝 **Description**                                                                     |
+|-------------------------|---------------------------------------------------------------------------------------|
+| `CodeHamming.cpp`       | Implémentation du **décodage Hamming** et correction des erreurs.                     |
+| `mceliece.cpp`          | Implémentation du **chiffrement McEliece**, génération de clés et déchiffrement.      |
+| `TP3-McEleice.pdf`      | Documentation théorique sur le **code Hamming** et le chiffrement **McEliece**.       |
+
+---
