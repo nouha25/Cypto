@@ -22,3 +22,42 @@ Ce projet explore les concepts avancés de cryptographie à travers deux modules
 | `TP3-McEleice.pdf`      | Documentation théorique sur le **code Hamming** et le chiffrement **McEliece**.       |
 
 ---
+## 🌟 **Fonctionnalités**
+
+### 🎯 **1. Code Hamming (7, 4)**
+- **🧩 Encodage** : Ajout de bits de parité pour détecter et corriger les erreurs.
+- **🔍 Décodage** : Analyse des bits de parité pour corriger d'éventuelles erreurs.
+- **⚙️ Correction d'erreur** : Capable de corriger **une seule erreur** par bloc de **7 bits**.
+
+### 🔐 **2. Chiffrement McEliece**
+- **🗝️ Génération de clés** :
+  - **🔑 Clé publique** : Matrice génératrice permutée pour le chiffrement.
+  - **🔒 Clé privée** : Matrice originale et matrice de parité pour le déchiffrement.
+- **🛡️ Chiffrement** : Encodage d'un message via la **clé publique** avec ajout d'un **vecteur d'erreur**.
+- **🔓 Déchiffrement** : Correction des erreurs à l'aide de la **clé privée** pour retrouver le message original.
+
+---
+
+## 🛠️ **Compilation et Exécution**
+
+### 🚀 **Étapes pour exécuter le projet**
+
+1. **🔧 Compiler les fichiers** :
+   ```bash
+   g++ CodeHamming.cpp -o CodeHamming
+   g++ mceliece.cpp -o mceliece
+   ```
+
+2. **▶️ Exécuter les programmes** :
+
+- **Pour décoder les messages Hamming** :
+   ```bash
+   ./CodeHamming
+   ```
+
+- **Pour générer des clés et exécuter le chiffrement McEliece** :
+   ```bash
+   ./mceliece
+   ```
+
+---
