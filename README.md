@@ -1,4 +1,4 @@
-# 🚀 **Projet de Cryptographie Avancée : McEliece et Hamming Code**
+# 🚀 **TP de Cryptographie Avancée : McEliece et Hamming Code**
 
 ---
 
